@@ -1,0 +1,30 @@
+/*========================================== 
+	COMPONENTS
+	----------
+	Table of content
+==========================================*/
+
+	
+/* 	Sample component: START 
+		Description:
+		Where it will be used:
+*/
+
+.sample_component_class {
+	// Here goes the code for the base component (mobile first)
+	@include at-breakpoint($tablet) {
+		// Here goes the code for the tablet
+	}
+	@include at-breakpoint($desktop) {
+		// Here goes the code for the desktop
+	}
+}
+
+// IE 8 Fixings
+.ie8 {
+	.sample_component_class {
+	
+	}
+}
+
+/* Sample component: END */

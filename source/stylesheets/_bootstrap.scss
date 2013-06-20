@@ -1,0 +1,42 @@
+@import "compass/reset";
+
+@import "susy";
+
+/*========================================== 
+	CONFIG 
+	------
+	Table of content
+	1. Susy Config
+	2. Colors
+	3. Typography
+	4. Fonts
+==========================================*/
+
+/*-------------------------
+	1. Susy Config
+-------------------------*/
+$total-columns: 	2;
+$column-width: 		300px;
+$gutter-width: 		7px;
+$grid-padding: 		15px;
+$container-style: magic;
+
+//$omega-float: left;
+
+$phone: $total-columns;
+// $media-layout: <min-width> <layout> <max-width> <ie-fallback>;
+$tablet: 	768px 3;
+$desktop: 960px 3;
+
+
+/*-------------------------
+	2. Colors
+-------------------------*/
+
+/*-------------------------
+	3. Typography
+-------------------------*/
+
+/*-------------------------
+	4. Fonts
+-------------------------*/
